@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "basictrianglerenderer",
+        "version": "${version}",
+        "metadata": {
+            "name": "BasicTriangleRenderer",
+            "description": "Just a basic triangle renderer... Just it.",
+            "contributors": {
+                "HexoDush": "Owner"
+            },
+            "contact": {},
+            "icon": "assets/basictrianglerenderer/icon.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "init": "net.quiltmc.users.arx.BasicTriangleRendererKt",
+            "client": "net.quiltmc.users.arx.BasicTriangleRendererKt"
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.19.1"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=7.0.2"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            }
+        ]
+    },
+    "mixin": "basictrianglerenderer.mixins.json"
+}
