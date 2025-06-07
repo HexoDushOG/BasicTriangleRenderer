@@ -5,9 +5,11 @@ How to run from source?
 -Linux/MacOS
 
 cd /.../BasicTriangleRenderer/BasicTriangleRendererMod
+
 ./gradlew runClient
 
 -Windows
 
 cd /.../BasicTriangleRenderer/BasicTriangleRendererMod
+
 ./gradlew.bat runClient
